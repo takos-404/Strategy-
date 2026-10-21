@@ -8,6 +8,7 @@ import com.delivery.external.SimulatedWeatherService;
 import com.delivery.selector.AssignmentSelector;
 import com.delivery.selector.PricingSelector;
 import com.delivery.strategy.assignment.NearestCourierStrategy;
+import com.delivery.strategy.pricing.StandardPricing;
 
 public class Main {
     public static void main(String[] args) {

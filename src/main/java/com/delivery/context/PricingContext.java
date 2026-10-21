@@ -1,6 +1,6 @@
 package com.delivery.context;
 import com.delivery.domain.Order;
-import com.delivery.PricingStrategy;
+import com.delivery.strategy.pricing.PricingStrategy;
 
 public class PricingContext {
     private PricingStrategy strategy;

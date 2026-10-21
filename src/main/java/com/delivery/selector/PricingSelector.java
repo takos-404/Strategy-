@@ -1,8 +1,8 @@
 package com.delivery.selector;
-import com.delivery.PricingStrategy;
-import com.delivery.StandardPricing;
-import com.delivery.SubscriptionPricing;
-import com.delivery.SurgePricing;
+import com.delivery.strategy.pricing.PricingStrategy;
+import com.delivery.strategy.pricing.StandardPricing;
+import com.delivery.strategy.pricing.SubscriptionPricing;
+import com.delivery.strategy.pricing.SurgePricing;
 import com.delivery.domain.Order;
 import com.delivery.external.WeatherService;
 
