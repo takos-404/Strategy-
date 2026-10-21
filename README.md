@@ -111,6 +111,7 @@ classDiagram
         +selectStrategy(Customer, boolean highDemand) AssignmentStrategy
     }
     AssignmentSelector ..> AssignmentStrategy : creates
+```
 3. Design Choice Justification
 Why Strategy and not State?
 The State pattern allows an object to alter its behavior when its internal state changes. In our domain, we are not tracking a life cycle. We simply need to execute a completely different mathematical calculation depending on external factors. Strategy is exactly designed to select an interchangeable algorithm at runtime without state transitions.
